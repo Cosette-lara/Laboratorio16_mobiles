@@ -19,7 +19,6 @@ class ProductCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(20),
-        // Sombra suave y difusa (Estilo Apple/iOS)
         boxShadow: [
           BoxShadow(
             color: Colors.black.withOpacity(0.06),
@@ -36,7 +35,7 @@ class ProductCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Expanded(
-                  flex: 3, // Ocupa el 60% de la tarjeta
+                  flex: 3, 
                   child: Container(
                     width: double.infinity,
                     padding: EdgeInsets.all(15),
@@ -52,7 +51,7 @@ class ProductCard extends StatelessWidget {
                   flex: 2,
                   child: Container(
                     padding: EdgeInsets.fromLTRB(12, 10, 12, 12),
-                    color: Colors.grey[50], // Fondo sutilmente diferente
+                    color: Colors.grey[50], 
                     width: double.infinity,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
