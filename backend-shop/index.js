@@ -6,7 +6,6 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 
-// --- BASE DE DATOS SIMULADA (En memoria) ---
 let products = [
     {
         id: 1,
@@ -14,7 +13,6 @@ let products = [
         price: 45.99,
         description: "Mochila resistente al agua, ideal para laptops y viajes.",
         category: "accesories",
-        // Imagen de mochila real desde Unsplash
         image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80"
     },
     {
@@ -23,7 +21,6 @@ let products = [
         price: 15.50,
         description: "Algodón 100% orgánico, corte moderno y fresco.",
         category: "clothing",
-        // Imagen de camiseta real
         image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80"
     },
     {
@@ -32,7 +29,6 @@ let products = [
         price: 89.99,
         description: "Suela de alto impacto para corredores exigentes.",
         category: "footwear",
-        // Imagen de zapatillas
         image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80"
     }
 ];
